@@ -13,4 +13,4 @@ spring:
     username: guest
     password: guest
 env:
-  test11
+  test
