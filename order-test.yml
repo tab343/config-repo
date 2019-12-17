@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
+  rabbitmq:
+    cache:
+      channel:
+        checkout-timeout: 1s
+    host: 172.10.101.250
+    port: 5672
+    username: guest
+    password: guest
+env:
+  test8
